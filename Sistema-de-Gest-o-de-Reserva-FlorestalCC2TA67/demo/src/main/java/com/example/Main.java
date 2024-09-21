@@ -6,13 +6,9 @@ public class Main {
         Reservaflorestal rf = new Reservaflorestal();
 
 
+        rf.nomedaReserva("Amazonia Legal");
 
-        rf.nomedaReserva();
-        for(int i = 0; i < rf.especie.length; i++){
-            rf.especie[i].definirEspecie();
-            rf.area[i].definirArea();
-        }
-        
+
 
     }
 }

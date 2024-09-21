@@ -16,5 +16,17 @@ public class Especie {
         System.out.println(" ");
     }
 
+    public void mostrarEspecie(){
+        System.out.println("Nome da especie: "+nome);
+        System.out.println("Tipo do animal: "+tipo);
+        System.out.println("Esta ameaçada? "+condicao);
+        System.out.println(" ");
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    
 
 }

@@ -11,9 +11,16 @@ public class Area {
         this.nome = sf.nextLine();
         System.out.println("Onde fica?");
         this.localizacao = sf.nextLine();
-        sf.nextLine();
         System.out.println("Qual tamanho dela em hectares? (digite em numeros)");
         this.tamanho = sf.nextDouble();
+        sf.nextLine();
+        System.out.println(" ");
+    }
+
+    public void mostrarArea(){
+        System.out.println("Nome da area: "+nome);
+        System.out.println("Local: "+localizacao);
+        System.out.println("Tamanho em hectares: "+tamanho);
         System.out.println(" ");
     }
 
