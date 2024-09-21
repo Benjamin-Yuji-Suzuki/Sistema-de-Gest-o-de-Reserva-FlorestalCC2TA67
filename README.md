@@ -21,11 +21,11 @@ Classe principal deve estar presente (Main, App ou Principal)
 deve ter menu iterativo.
 
 <h3> Escolher pelo menos duas tecnologias externas da lista abaixo: </h3>
-Conexão e utilização de um banco de dados.
-Importação e exportação de arquivos CSV.
-Integração com uma API de geolocalização.
-Utilização de bibliotecas de teste unitário para verificar cada método.
-Implementação de uma interface gráfica para o sistema.
+<ol>Conexão e utilização de um banco de dados.</ol>
+<ol>Importação e exportação de arquivos CSV.</ol>
+<ol>Integração com uma API de geolocalização.</ol>
+<ol>Utilização de bibliotecas de teste unitário para verificar cada método.</ol>
+<ol>Implementação de uma interface gráfica para o sistema.</ol>
 <p>ESCOLHEMOS TODAS.</p>
 
 # Entrega resumida:
