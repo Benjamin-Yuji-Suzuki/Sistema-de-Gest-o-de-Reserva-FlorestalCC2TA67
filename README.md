@@ -20,14 +20,13 @@ deve ser feito no Maven ou Gradle (escolhi Maven)
 Classe principal deve estar presente (Main, App ou Principal)
 deve ter menu iterativo.
 
-Comunicação com Tecnologias Externas
-Escolher pelo menos duas tecnologias externas da lista abaixo:
+<h3> Escolher pelo menos duas tecnologias externas da lista abaixo: </h3>
 Conexão e utilização de um banco de dados.
 Importação e exportação de arquivos CSV.
 Integração com uma API de geolocalização.
 Utilização de bibliotecas de teste unitário para verificar cada método.
 Implementação de uma interface gráfica para o sistema.
-ESCOLHEMOS TODAS.
+<p>ESCOLHEMOS TODAS.</p>
 
 # Entrega resumida:
 no git gub e deve ter tutorial de como o software criado pelos alunos funciona.
