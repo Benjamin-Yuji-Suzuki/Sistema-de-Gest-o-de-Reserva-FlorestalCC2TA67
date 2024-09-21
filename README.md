@@ -1,5 +1,5 @@
 # Sistema-de-Gest-o-de-Reserva-FlorestalCC2TA67
-Prova do Professor
+Projeto do Professor
 # Requisitos do sistemas de forma resumida:
 cadastro de especie q deve caber 200 em array
 deve ter: nome, tipo(planta ou animal)[escolhemos animal] e status de ameaçado
@@ -21,8 +21,13 @@ Classe principal deve estar presente (Main, App ou Principal)
 deve ter menu iterativo.
 
 Comunicação com Tecnologias Externas
-Deve ter duas e que devem envolver o java
-e estar funcionando.
+Escolher pelo menos duas tecnologias externas da lista abaixo:
+Conexão e utilização de um banco de dados.
+Importação e exportação de arquivos CSV.
+Integração com uma API de geolocalização.
+Utilização de bibliotecas de teste unitário para verificar cada método.
+Implementação de uma interface gráfica para o sistema.
+ESCOLHEMOS TODAS.
 
 # Entrega resumida:
 no git gub e deve ter tutorial de como o software criado pelos alunos funciona.
