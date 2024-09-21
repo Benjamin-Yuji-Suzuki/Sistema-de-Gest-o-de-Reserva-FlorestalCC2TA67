@@ -4,42 +4,33 @@ public class Reservaflorestal {
 
     
     private String nomedaReserva;
-    Scanner sf = new Scanner(System.in);
-    Area[] area = new Area[3];
-    Especie[] especie = new Especie[2];
-
+    private Scanner sf = new Scanner(System.in);
+    private ArrayList<Area> areas = new ArrayList<>();
+    private ArrayList<Especie> especies = new ArrayList<>();
 
     public void nomedaReserva(String nomedaReserva) {
         this.nomedaReserva = nomedaReserva;
         System.out.println(nomedaReserva);
     }
 
-    public Reservaflorestal(){
-        
-    }
+    public void RegistrarEspecie(){
 
-    public void TODASmostrarArea(){
-        
-    }
-    public void mostrarAreaESPECIFICA(){
-        
-    }
-
-    public void TODASmostrarEspecie(){
-        
-    }
-
-    public void mostrarEspecieESPECIFICA(){
-        
-    }
-
-    public void registrarEspecieAvistada(){
-        
-    }
-
-    public void listarEspeciesAvistadas(){
+        Especie animal = new Especie();
+        animal.RegistrarEspecie();
+        especies.add(animal);
 
     }
-
+    
+    public void MostrarEspecies(){
+        System.out.println("Lista das especies");
+        if (especies.isEmpty()){
+            System.out.println("Nenhuma especie registrada");
+        }
+        else{
+            for(Especie espe : especies){
+                espe.ListarEspecies();
+            }
+        }
+    }
 
 }

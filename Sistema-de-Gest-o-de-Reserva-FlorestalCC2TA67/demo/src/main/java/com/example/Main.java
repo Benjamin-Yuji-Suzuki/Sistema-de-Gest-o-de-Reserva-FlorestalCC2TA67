@@ -5,9 +5,9 @@ public class Main {
         
         Reservaflorestal rf = new Reservaflorestal();
 
-
         rf.nomedaReserva("Amazonia Legal");
-
+        rf.RegistrarEspecie();
+        rf.MostrarEspecies();
 
 
     }
