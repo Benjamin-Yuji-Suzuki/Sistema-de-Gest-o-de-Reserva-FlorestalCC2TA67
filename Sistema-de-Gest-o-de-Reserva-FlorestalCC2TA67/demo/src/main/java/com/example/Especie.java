@@ -14,11 +14,17 @@ public class Especie {
         this.condicao = sf.nextLine();
     }
 
-    public void ListarEspecies(){
+    public void ListarDadosEspecies(){
         System.out.println("Nome: "+nome);
         System.out.println("Tipo: "+tipo);
         System.out.println("Está ameaçado? "+condicao);
         System.out.println();
     }
+
+    public String getNome() {
+        return nome;
+    }
+
+    
     
 }

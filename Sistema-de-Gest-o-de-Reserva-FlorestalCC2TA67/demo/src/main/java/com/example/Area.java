@@ -17,7 +17,7 @@ public class Area {
         System.out.println(" ");
     }
 
-    public void mostrarArea(){
+    public void mostrarAreaDados(){
         System.out.println("Nome da area: "+nome);
         System.out.println("Local: "+localizacao);
         System.out.println("Tamanho em hectares: "+tamanho);

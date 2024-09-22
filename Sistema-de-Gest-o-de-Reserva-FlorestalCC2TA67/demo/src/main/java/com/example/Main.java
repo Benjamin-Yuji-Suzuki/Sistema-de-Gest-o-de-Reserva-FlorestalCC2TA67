@@ -7,8 +7,17 @@ public class Main {
 
         rf.nomedaReserva("Amazonia Legal");
         rf.RegistrarEspecie();
-        rf.MostrarEspecies();
+        rf.MostrarTodasEspecies();
 
+        rf.RegistrarArea();
+        rf.RegistrarArea();
+        rf.RegistrarArea();
+        rf.RegistrarArea();
+        rf.MostrarTodasAreas();
+
+        rf.MostrarTodosAvistamentos();
+        rf.RegistrarAvistamento();
+        rf.MostrarTodosAvistamentos();
 
     }
 }
