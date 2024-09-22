@@ -1,4 +1,4 @@
-# Sistema-de-Gest-o-de-Reserva-FlorestalCC2TA67
+# Sistema-de-Gestao-de-Reserva-FlorestalCC2TA67
 Projeto do Professor
 # Requisitos do sistemas de forma resumida:
 cadastro de especie q deve caber 200 em array
