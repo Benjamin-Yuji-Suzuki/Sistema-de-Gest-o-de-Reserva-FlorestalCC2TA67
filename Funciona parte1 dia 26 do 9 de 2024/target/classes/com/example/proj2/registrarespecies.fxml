@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="533.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proj2.RegistrarespeciesController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="400.0" prefWidth="553.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Label layoutX="24.0" layoutY="24.0" prefHeight="45.0" prefWidth="315.0" text="Digite as informações da espécie">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="69.0" layoutY="98.0" text="Nome da espécie" />
+            <Label layoutX="69.0" layoutY="179.0" text="Tipo da espécie" />
+            <Label layoutX="69.0" layoutY="258.0" text="Está ameaçada?" />
+
+            <!-- RadioButtons para condição de ameaça, agrupados -->
+            <RadioButton fx:id="nao" layoutX="189.0" layoutY="258.0" mnemonicParsing="false" text="Não">
+                <toggleGroup>
+                    <ToggleGroup fx:id="condicaoGroup" />
+                </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="sim" layoutX="256.0" layoutY="258.0" mnemonicParsing="false" text="Sim" toggleGroup="$condicaoGroup" />
+
+            <!-- Botão de confirmar -->
+            <Button fx:id="confirmar1" layoutX="294.0" layoutY="328.0" mnemonicParsing="false" onAction="#confirmar" text="Confirmar" />
+
+            <!-- Campo de texto para o nome da espécie -->
+            <TextField fx:id="nomedaespecie" layoutX="187.0" layoutY="88.0" prefHeight="37.0" prefWidth="249.0" />
+
+            <!-- Campo de texto para o tipo da espécie -->
+            <TextField fx:id="tipodaespecie" layoutX="187.0" layoutY="169.0" prefHeight="37.0" prefWidth="249.0" />
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
