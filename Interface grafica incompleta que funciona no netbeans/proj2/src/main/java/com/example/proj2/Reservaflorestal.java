@@ -11,11 +11,6 @@ public class Reservaflorestal {
     private List<Especie> especies = new ArrayList<>();
     private List<Avistamento> avistamentos = new ArrayList<>();
 
-    // Exibe o nome da reserva (não mais interativo)
-    public void nomedaReserva(String nomedaReserva) {
-        System.out.println(nomedaReserva);
-    }
-
     // Registra uma nova espécie (sem interação do usuário)
     public void RegistrarEspecie(Especie especie) {
         if (intervaloE >= 200) {

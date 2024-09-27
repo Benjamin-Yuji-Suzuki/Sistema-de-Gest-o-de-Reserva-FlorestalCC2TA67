@@ -50,4 +50,40 @@ public class LayoutController {
             e.printStackTrace();
         }
     }
+
+    // Novo método para abrir a tela de registrar áreas
+    @FXML
+    void abrirRegistrarAreas(ActionEvent event) {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/proj2/registrarareas.fxml"));
+            Parent root = loader.load();
+
+            RegistrarareasController controller = loader.getController();
+            controller.setReserva(reserva);  // Passa a reserva compartilhada
+
+            Stage stage = (Stage) ((Button) event.getSource()).getScene().getWindow(); 
+            stage.setScene(new Scene(root));
+            stage.setTitle("Registrar Áreas");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    // Novo método para abrir a tela de listar áreas
+    @FXML
+    void abrirListarAreas(ActionEvent event) {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/proj2/listarareas.fxml"));
+            Parent root = loader.load();
+
+            ListarareasController controller = loader.getController();
+            controller.setReserva(reserva);  // Passa a reserva compartilhada
+
+            Stage stage = (Stage) ((Button) event.getSource()).getScene().getWindow(); 
+            stage.setScene(new Scene(root));
+            stage.setTitle("Listar Áreas");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }

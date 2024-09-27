@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proj2.LayoutController">
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proj2.LayoutController">
     <children>
         <MenuBar VBox.vgrow="NEVER">
             <menus>
@@ -26,10 +26,12 @@
                 </Menu>
             </menus>
         </MenuBar>
-        <AnchorPane>
+        <AnchorPane prefHeight="265.0" prefWidth="640.0">
             <children>
                 <Button fx:id="registrarespecies" layoutX="36.0" layoutY="52.0" onAction="#abrirRegistrarEspecie" text="Registrar Espécies" />
-                <Button fx:id="listarespecies" layoutX="36.0" layoutY="102.0" onAction="#abrirListarEspecies" text="Listar Espécies" />
+                <Button fx:id="listarespecies" layoutX="36.0" layoutY="102.0" onAction="#abrirListarEspecies" prefHeight="25.0" prefWidth="111.0" text="Listar Espécies" />
+                <Button fx:id="registrarareas" layoutX="36.0" layoutY="152.0" onAction="#abrirRegistrarAreas" prefHeight="25.0" prefWidth="111.0" text="Registrar Áreas" />
+                <Button fx:id="listarareas" layoutX="36.0" layoutY="202.0" onAction="#abrirListarAreas" prefHeight="25.0" prefWidth="111.0" text="Listar Áreas" />
             </children>
         </AnchorPane>
     </children>

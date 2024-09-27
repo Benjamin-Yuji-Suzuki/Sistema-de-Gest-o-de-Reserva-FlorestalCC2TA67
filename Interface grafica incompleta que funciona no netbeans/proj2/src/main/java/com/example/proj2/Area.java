@@ -1,31 +1,60 @@
 package com.example.proj2;
-import java.util.*;
+
 public class Area {
     
 
-    Scanner sf = new Scanner(System.in);
-    private String nome; private String localizacao; private Double tamanho;
-
-    public void definirArea(){
-        System.out.println("Nome da area");
-        this.nome = sf.nextLine();
-        System.out.println("Onde fica?");
-        this.localizacao = sf.nextLine();
-        System.out.println("Qual tamanho dela em hectares? (digite em numeros)");
-        this.tamanho = sf.nextDouble();
-        sf.nextLine();
+    private String nome; private Double latitude; private Double longitude; private Double hectares;
+    
+    public void mostrarAreaDados(){
+        System.out.println("Nome da area: "+nome);
+        System.out.println("Latitude: "+latitude);
+        System.out.println("Longitude: "+longitude);
+        System.out.println("Tamanho em hectares: "+hectares);
         System.out.println(" ");
     }
 
-    public void mostrarAreaDados(){
-        System.out.println("Nome da area: "+nome);
-        System.out.println("Local: "+localizacao);
-        System.out.println("Tamanho em hectares: "+tamanho);
-        System.out.println(" ");
+    public Area(String nome, Double latitude, Double longitude, Double hectares) {
+        this.nome = nome;
+        this.latitude = latitude;
+        this.longitude = longitude;
+        this.hectares = hectares;
+    }
+
+    public Area(){
     }
 
     public String getNome() {
         return nome;
     }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public Double getLatitude() {
+        return latitude;
+    }
+
+    public void setLatitude(Double latitude) {
+        this.latitude = latitude;
+    }
+
+    public Double getLongitude() {
+        return longitude;
+    }
+
+    public void setLongitude(Double longitude) {
+        this.longitude = longitude;
+    }
+
+    public Double getHectares() {
+        return hectares;
+    }
+
+    public void setHectares(Double hectares) {
+        this.hectares = hectares;
+    }
+
+    
     
 }
