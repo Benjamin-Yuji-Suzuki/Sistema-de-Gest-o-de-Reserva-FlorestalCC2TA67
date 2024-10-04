@@ -30,7 +30,7 @@ deve ter menu iterativo.
 
 # Entrega resumida:
 no git gub e deve ter tutorial de como o software criado pelos alunos funciona.
-vai IA SER apresentado no dia 4/10/24
+IA SER apresentado no dia 4/10/24
 
 # Criterios de avaliação resumida:
 cumprir os requisitos minimos
