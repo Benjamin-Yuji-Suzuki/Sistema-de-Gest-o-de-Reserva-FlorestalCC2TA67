@@ -2,7 +2,7 @@
 Projeto do Professor
 # Requisitos do sistemas de forma resumida:
 cadastro de especie q deve caber 200 em array
-deve ter: nome, tipo(planta ou animal)[escolhemos animal] e status de ameaçado
+deve ter: nome, tipo(planta ou animal) e status de ameaçado
 
 monitoramento de áreas
 deve caber 20 na array
@@ -30,7 +30,7 @@ deve ter menu iterativo.
 
 # Entrega resumida:
 no git gub e deve ter tutorial de como o software criado pelos alunos funciona.
-vai ser apresentado no dia 4/10/24
+vai IA SER apresentado no dia 4/10/24
 
 # Criterios de avaliação resumida:
 cumprir os requisitos minimos
