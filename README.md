@@ -63,7 +63,8 @@ O projeto foi desenvolvido seguindo as melhores práticas de programação e pri
 
 ## Instruções de Uso
 ### Pré-requisitos
-- **Java JDK 11** ou superior.
+- **JavaFX 23**
+- **Java JDK 23** ou superior.
 - **Maven** para gerenciamento de dependências.
 
 ### Como Executar
@@ -94,6 +95,6 @@ A avaliação do projeto será baseada nos seguintes critérios:
 
 ## Equipe
 - **Brenda dos Santos Nascimento**: Desenvolvimento da **API de Geolocalização**, organização de **Dados CSV** e aprimoramento do **README**.
-- **Benjamin**: Implementação do **Banco de Dados** e funcionalidades de **Cadastro de Espécies**.
+- **Benjamin**: Implementação do **Banco de Dados**, funcionalidades de **Cadastro de Espécies** e implementação de importação e exportação de **Dados CSV**.
 - **Benjamin**: Desenvolvimento da **Interface Gráfica** e funcionalidades de **Registro de Avistamento**.
 - **Felipe**: Implementação de **Testes Unitários** e gerenciamento do **Monitoramento de Áreas**.
