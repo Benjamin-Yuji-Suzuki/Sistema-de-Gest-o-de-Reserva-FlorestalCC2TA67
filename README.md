@@ -69,6 +69,7 @@ O projeto foi desenvolvido seguindo as melhores práticas de programação e pri
 - **JavaFX 23**
 - **Java JDK 23** ou superior.
 - **Maven** para gerenciamento de dependências.
+- **Internet** para o funcionamento do mapa.
   
 ### Como usar
 - **Menu Interativo**: Utilize o menu interativo para cadastrar espécies, monitorar áreas e registrar avistamentos.
