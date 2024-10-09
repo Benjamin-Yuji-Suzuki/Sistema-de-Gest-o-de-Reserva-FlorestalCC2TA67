@@ -67,18 +67,7 @@ O projeto foi desenvolvido seguindo as melhores práticas de programação e pri
 - **Java JDK 23** ou superior.
 - **Maven** para gerenciamento de dependências.
 
-### Como Executar
-1. **Clone o repositório:**
-    ```bash
-    git clone https://github.com/seu-usuario/Sistema-de-Gestao-de-Reserva-Florestal.git
-    cd Sistema-de-Gestao-de-Reserva-Florestal
-    ```
-2. **Compile e execute o projeto com Maven:**
-    ```bash
-    mvn clean install
-    mvn exec:java -Dexec.mainClass="caminho.da.sua.classe.Main"
-    ```
-3. **Menu Interativo**: Utilize o menu interativo para cadastrar espécies, monitorar áreas e registrar avistamentos.
+- **Menu Interativo**: Utilize o menu interativo para cadastrar espécies, monitorar áreas e registrar avistamentos.
 
 ### Importação/Exportação de Dados CSV
 - O sistema oferece suporte à importação e exportação de dados em formato **CSV** para fácil manipulação e armazenamento.
