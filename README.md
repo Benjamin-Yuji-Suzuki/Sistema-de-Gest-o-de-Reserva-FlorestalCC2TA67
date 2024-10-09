@@ -40,6 +40,7 @@ O sistema possui os seguintes requisitos funcionais:
 - O projeto deve ser desenvolvido utilizando **Maven** (ou Gradle, porém a escolha foi Maven).
 - Deve possuir uma classe principal, com nome como **Main**, **App**, ou **Principal**.
 - Implementar um **menu interativo** para navegação e utilização do sistema pelo usuário.
+- Deve implementar pelo menos **2** tecnologias externas para o projeto.
 
 ## Tecnologias Utilizadas
 Para enriquecer a funcionalidade e agregar valor ao projeto, todas as seguintes tecnologias externas foram integradas:
@@ -66,12 +67,12 @@ O projeto foi desenvolvido seguindo as melhores práticas de programação e pri
 - **JavaFX 23**
 - **Java JDK 23** ou superior.
 - **Maven** para gerenciamento de dependências.
-
+  
+### Como usar
 - **Menu Interativo**: Utilize o menu interativo para cadastrar espécies, monitorar áreas e registrar avistamentos.
 
 ### Importação/Exportação de Dados CSV
 - O sistema oferece suporte à importação e exportação de dados em formato **CSV** para fácil manipulação e armazenamento.
-- Os arquivos CSV devem ser armazenados na pasta **src/main/resources/csv/**.
 
 ## Critérios de Avaliação
 A avaliação do projeto será baseada nos seguintes critérios:
