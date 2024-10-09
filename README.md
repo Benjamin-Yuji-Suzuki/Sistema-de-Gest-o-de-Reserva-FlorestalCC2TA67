@@ -95,6 +95,5 @@ A avaliação do projeto será baseada nos seguintes critérios:
 
 ## Equipe
 - **Brenda dos Santos Nascimento**: Desenvolvimento da **API de Geolocalização**, organização de **Dados CSV** e aprimoramento do **README**.
-- **Benjamin**: Implementação do **Banco de Dados**, funcionalidades de **Cadastro de Espécies** e implementação de importação e exportação de **Dados CSV**.
-- **Benjamin**: Desenvolvimento da **Interface Gráfica** e funcionalidades de **Registro de Avistamento**.
-- **Felipe**: Implementação de **Testes Unitários** e gerenciamento do **Monitoramento de Áreas**.
+- **Felipe**: Incrementação de **testes Unitários**.
+- **Benjamin Yuji Suzuki**: Implementação de **banco de dados**, **importação e exportação de arquivos CSV**, **interface gráfica**, **teste unitario** e **codigo-fonte**
