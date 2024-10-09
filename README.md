@@ -27,7 +27,9 @@ O sistema possui os seguintes requisitos funcionais:
 - **Capacidade para até 20 áreas monitoradas** em uma array.
 - Cada área deve possuir:
   - **Nome da Área** (string)
-  - **Localização** (coordenadas geográficas ou descrição textual)
+  - **Localização** (coordenadas geográficas)
+      - Latitude
+      - Longitude
   - **Tamanho em Hectares** (float ou double)
 
 ### Registro de Avistamento
