@@ -94,6 +94,6 @@ A avaliação do projeto será baseada nos seguintes critérios:
 5. **Integração das Tecnologias Externas**: Funcionamento completo das tecnologias externas, incluindo banco de dados, manipulação de arquivos CSV, API de geolocalização, testes unitários e interface gráfica.
 
 ## Equipe
-- **Brenda dos Santos Nascimento**: Desenvolvimento da **API de Geolocalização**, organização de **Dados CSV** e aprimoramento do **README**.
-- **Felipe**: Incrementação de **testes Unitários**.
-- **Benjamin Yuji Suzuki**: Implementação de **banco de dados**, **importação e exportação de arquivos CSV**, **interface gráfica**, **teste unitario** e **codigo-fonte**
+- **Brenda dos Santos Nascimento**: Desenvolvimento da **API de Geolocalização**, Corretora de **importação e exportação de arquivos CSV** e Implementação do **README**.
+- **Felipe**: Implementação de **testes Unitários** e **banco de dados**.
+- **Benjamin Yuji Suzuki**: Desenvolvimento da **interface gráfica**, Corretor de **banco de dados**, **importação e exportação de arquivos CSV**, **README** e Incrementação de **teste unitário**.
