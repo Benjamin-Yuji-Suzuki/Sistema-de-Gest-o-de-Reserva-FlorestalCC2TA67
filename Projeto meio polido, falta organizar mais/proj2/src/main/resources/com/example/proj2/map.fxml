@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.web.WebView?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proj2.MapController">
+    <children>
+        <!-- WebView para carregar o mapa -->
+        <WebView fx:id="mapWebView" layoutX="10.0" layoutY="10.0" prefHeight="400.0" prefWidth="580.0" />
+        
+        <!-- Botão para confirmar a seleção de coordenadas -->
+        <Button fx:id="confirmarCoordenadas" layoutX="250.0" layoutY="420.0" text="Confirmar Coordenadas" onAction="#confirmarCoordenadas" />
+    </children>
+</AnchorPane>

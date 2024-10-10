@@ -27,7 +27,9 @@ O sistema possui os seguintes requisitos funcionais:
 - **Capacidade para até 20 áreas monitoradas** em uma array.
 - Cada área deve possuir:
   - **Nome da Área** (string)
-  - **Localização** (coordenadas geográficas ou descrição textual)
+  - **Localização** (coordenadas geográficas)
+      - Latitude
+      - Longitude
   - **Tamanho em Hectares** (float ou double)
 
 ### Registro de Avistamento
@@ -40,6 +42,7 @@ O sistema possui os seguintes requisitos funcionais:
 - O projeto deve ser desenvolvido utilizando **Maven** (ou Gradle, porém a escolha foi Maven).
 - Deve possuir uma classe principal, com nome como **Main**, **App**, ou **Principal**.
 - Implementar um **menu interativo** para navegação e utilização do sistema pelo usuário.
+- Deve implementar pelo menos **2** tecnologias externas para o projeto.
 
 ## Tecnologias Utilizadas
 Para enriquecer a funcionalidade e agregar valor ao projeto, todas as seguintes tecnologias externas foram integradas:
@@ -63,25 +66,16 @@ O projeto foi desenvolvido seguindo as melhores práticas de programação e pri
 
 ## Instruções de Uso
 ### Pré-requisitos
-- **Java JDK 11** ou superior.
+- **JavaFX 23**
+- **Java JDK 23** ou superior.
 - **Maven** para gerenciamento de dependências.
-
-### Como Executar
-1. **Clone o repositório:**
-    ```bash
-    git clone https://github.com/seu-usuario/Sistema-de-Gestao-de-Reserva-Florestal.git
-    cd Sistema-de-Gestao-de-Reserva-Florestal
-    ```
-2. **Compile e execute o projeto com Maven:**
-    ```bash
-    mvn clean install
-    mvn exec:java -Dexec.mainClass="caminho.da.sua.classe.Main"
-    ```
-3. **Menu Interativo**: Utilize o menu interativo para cadastrar espécies, monitorar áreas e registrar avistamentos.
+- **Internet** para o funcionamento do mapa.
+  
+### Como usar
+- **Menu Interativo**: Utilize o menu interativo para cadastrar espécies, monitorar áreas e registrar avistamentos.
 
 ### Importação/Exportação de Dados CSV
 - O sistema oferece suporte à importação e exportação de dados em formato **CSV** para fácil manipulação e armazenamento.
-- Os arquivos CSV devem ser armazenados na pasta **src/main/resources/csv/**.
 
 ## Critérios de Avaliação
 A avaliação do projeto será baseada nos seguintes critérios:
@@ -93,7 +87,6 @@ A avaliação do projeto será baseada nos seguintes critérios:
 5. **Integração das Tecnologias Externas**: Funcionamento completo das tecnologias externas, incluindo banco de dados, manipulação de arquivos CSV, API de geolocalização, testes unitários e interface gráfica.
 
 ## Equipe
-- **Brenda dos Santos Nascimento**: Desenvolvimento da **API de Geolocalização**, organização de **Dados CSV** e aprimoramento do **README**.
-- **Benjamin**: Implementação do **Banco de Dados** e funcionalidades de **Cadastro de Espécies**.
-- **Benjamin**: Desenvolvimento da **Interface Gráfica** e funcionalidades de **Registro de Avistamento**.
-- **Felipe**: Implementação de **Testes Unitários** e gerenciamento do **Monitoramento de Áreas**.
+- **Brenda dos Santos Nascimento**: Desenvolvimento da **API de Geolocalização**, Corretora de **importação e exportação de arquivos CSV** e Implementação do **README**.
+- **Felipe de Freitas**: Implementação de **testes unitários** e **banco de dados**.
+- **Benjamin Yuji Suzuki**: Desenvolvimento da **interface gráfica**, Corretor de **banco de dados**, **importação e exportação de arquivos CSV**, **API de Geolocalização**, **README** e Incrementação de **teste unitário**.
