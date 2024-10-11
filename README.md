@@ -53,16 +53,6 @@ Para enriquecer a funcionalidade e agregar valor ao projeto, todas as seguintes 
 4. **Testes Unitários**: Para validação de métodos e funcionalidades, assegurando a integridade do código.
 5. **Interface Gráfica**: Implementação de uma interface visual amigável para interação com o sistema.
 
-## Estrutura do Projeto
-O projeto foi desenvolvido seguindo as melhores práticas de programação e princípios de Orientação a Objetos (POO):
-
-- **src/main/java/**: Código-fonte principal.
-  - **models/**: Classes de modelos (Espécie, Área, Avistamento).
-  - **services/**: Lógica de negócios e manipulação de dados.
-  - **controllers/**: Controle de fluxo e gerenciamento de interação do usuário.
-  - **utils/**: Funções auxiliares para manipulação de dados, integração com APIs, e outras ferramentas de suporte.
-- **src/main/resources/**: Recursos estáticos e arquivos de configuração, como arquivos CSV.
-- **src/test/java/**: Testes unitários para validação das funcionalidades.
 
 ## Instruções de Uso
 ### Pré-requisitos
