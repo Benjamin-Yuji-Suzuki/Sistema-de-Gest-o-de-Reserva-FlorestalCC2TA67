@@ -1,6 +1,6 @@
 # Sistema de Gestão de Reserva Florestal - CC2TA67
 Projeto desenvolvido sob orientação do Professor Isacc.
-
+(na época, nao sabia o que era Docker, logo, o projeto nao esta funcionando de acordo com as instruções oferecidas)
 ## Sumário
 - [Visão Geral](#visão-geral)
 - [Requisitos do Sistema](#requisitos-do-sistema)
